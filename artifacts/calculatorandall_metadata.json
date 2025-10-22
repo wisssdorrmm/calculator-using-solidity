@@ -33,6 +33,32 @@
 			},
 			{
 				"inputs": [],
+				"name": "checktime",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkweather",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "division",
 				"outputs": [
 					{
@@ -84,6 +110,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_wet",
+						"type": "uint256"
+					}
+				],
+				"name": "getweather",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "invalid",
 				"outputs": [
@@ -121,6 +160,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_ctime",
+						"type": "uint256"
+					}
+				],
+				"name": "tracktime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -151,11 +203,11 @@
 	},
 	"sources": {
 		".git/calculaator.sol": {
-			"keccak256": "0xacde460fac7f1adf0879fdf2881a127db0e6859414a00a1c6be3f2d1e534553f",
+			"keccak256": "0xf3878cda23b88708e7db4de5e5b3db642ebcc77a1cb350b64f94ed643ca14b1e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0a9f13721406848a07d0ec37e4c69ab023170d067a5ef85bc90d4e57c648f3c5",
-				"dweb:/ipfs/QmWPKY8ELpcZWCsMNGLv2atbx71KMYEv1TvFQBiXcc68vM"
+				"bzz-raw://93c83efe01909b2614ed0fd30c902f3572bf71c5f718e2630deac2b13084a42c",
+				"dweb:/ipfs/QmSuQtituH8ChRSdZh4Zk1CqkFjYrb4oD6ZkETGwLZfUwG"
 			]
 		}
 	},
