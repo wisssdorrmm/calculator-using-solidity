@@ -85,19 +85,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "informat",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "invalid",
 				"outputs": [
 					{
@@ -164,11 +151,11 @@
 	},
 	"sources": {
 		".git/calculaator.sol": {
-			"keccak256": "0x0505a32264653955bfd8cc729f19d3bf1ac15581bddce0e5a64874155247297d",
+			"keccak256": "0xacde460fac7f1adf0879fdf2881a127db0e6859414a00a1c6be3f2d1e534553f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://37f491049e635cb532e24a5c026eff321bdcb3254cc7f3c3a32646faa3af6d26",
-				"dweb:/ipfs/QmST8vLWkPvFSrRkv1MEUunXasnfDVBcLUXyyxCmbxWxun"
+				"bzz-raw://0a9f13721406848a07d0ec37e4c69ab023170d067a5ef85bc90d4e57c648f3c5",
+				"dweb:/ipfs/QmWPKY8ELpcZWCsMNGLv2atbx71KMYEv1TvFQBiXcc68vM"
 			]
 		}
 	},
