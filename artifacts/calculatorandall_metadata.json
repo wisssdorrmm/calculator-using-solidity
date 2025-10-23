@@ -278,6 +278,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "removeLast",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "subtraction",
 				"outputs": [
 					{
@@ -362,11 +369,11 @@
 	},
 	"sources": {
 		".git/calculaator.sol": {
-			"keccak256": "0xfca31dfb62eff9be716b351b0925b91196bd45c18973b18bdbd14fad362f9e92",
+			"keccak256": "0xd1c73dce70d92163956316dbb937ba0d074be8d131b2ba44b68c37c38019f921",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c0a7b0292b30e072a1bc12e0864ab560757c338711b79b186937ef2cee47d54b",
-				"dweb:/ipfs/QmTpegX5AgHe4UooRt3B6mMPwreBLAWEr84W5F6iQ9H7Sy"
+				"bzz-raw://cf2b509a4f230df7ac08d512a5ab1d758c72fafd23d392752227b7461d01e9e6",
+				"dweb:/ipfs/Qmer7Sj4jRyugXPKerSTJ7EvxBxJpmSAVG4rbS7J2wnAXi"
 			]
 		}
 	},
