@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_task",
+						"type": "string"
+					}
+				],
+				"name": "addTodo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "addition",
 				"outputs": [
@@ -71,6 +84,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "completeTodo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "division",
 				"outputs": [
@@ -78,6 +104,31 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTodos",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "task",
+								"type": "string"
+							},
+							{
+								"internalType": "bool",
+								"name": "completed",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct calculatorandall.Todo[]",
+						"name": "",
+						"type": "tuple[]"
 					}
 				],
 				"stateMutability": "view",
@@ -229,11 +280,11 @@
 	},
 	"sources": {
 		".git/calculaator.sol": {
-			"keccak256": "0x083df4731599383dbcd5f79f8e324d4550e62e98255c48338d79851499237d47",
+			"keccak256": "0xae232e23570338042a354251f6690f18f7d097ab5221301a72e25e1fd23880ae",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d68f2c8d8a555ac96d31673e2a13b1da2263cb24012b215f28452344a69816f4",
-				"dweb:/ipfs/QmV25FREi7R7AMKQ7GVJrhDcQDMCciBA939k88ARiJL4D2"
+				"bzz-raw://5c6439be55d25747cf30a11db8547951f8fa807812c4f9cda0c0bf9f1ded3b43",
+				"dweb:/ipfs/QmdUeejBq8gn23wbivZkBGFYZJfrW11wchYwBL1vWcZezw"
 			]
 		}
 	},
