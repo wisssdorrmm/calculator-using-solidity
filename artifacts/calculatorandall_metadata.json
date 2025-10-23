@@ -8,6 +8,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "addNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "string",
 						"name": "_task",
 						"type": "string"
@@ -99,6 +112,38 @@
 			{
 				"inputs": [],
 				"name": "division",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -213,6 +258,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "subtraction",
 				"outputs": [
@@ -250,6 +314,24 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newNum",
+						"type": "uint256"
+					}
+				],
+				"name": "updateNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -280,11 +362,11 @@
 	},
 	"sources": {
 		".git/calculaator.sol": {
-			"keccak256": "0xae232e23570338042a354251f6690f18f7d097ab5221301a72e25e1fd23880ae",
+			"keccak256": "0xfca31dfb62eff9be716b351b0925b91196bd45c18973b18bdbd14fad362f9e92",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5c6439be55d25747cf30a11db8547951f8fa807812c4f9cda0c0bf9f1ded3b43",
-				"dweb:/ipfs/QmdUeejBq8gn23wbivZkBGFYZJfrW11wchYwBL1vWcZezw"
+				"bzz-raw://c0a7b0292b30e072a1bc12e0864ab560757c338711b79b186937ef2cee47d54b",
+				"dweb:/ipfs/QmTpegX5AgHe4UooRt3B6mMPwreBLAWEr84W5F6iQ9H7Sy"
 			]
 		}
 	},
