@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_maks",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nats",
+						"type": "uint256"
+					}
+				],
+				"name": "gettask",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "maker",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "task",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".git/todo.sol/todo.sol": "sucktask"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".git/todo.sol/todo.sol": {
+			"keccak256": "0x082c535073ae883723fad7cea3d53764614056349e497dc627762115d728c54e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a28fb42775d8e4c40c2ec98e75b79ec5b577fb2e5c3b766085ee6a20a67f07f6",
+				"dweb:/ipfs/QmQqqQKT4AjEoq1iFXntQ3E2CcaFDTVFWp5E2ovi58SsLC"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "maker",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "task",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".git/todo.sol/todo.sol": "todp"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".git/todo.sol/todo.sol": {
+			"keccak256": "0x1db0a481c81a5e8eac2371ee5b734ef5b1f0c1e87a8b7815712344173cbfbf22",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eadb55485c3b3d4efd94ecc0ce37a421f9c5381b4e8cfd41223c4fbe8d88fa7a",
+				"dweb:/ipfs/QmZ8WVgG6QGcXt5uKwytMRDeGmFUxMGgzc66qGwgM72Dvr"
+			]
+		}
+	},
+	"version": 1
+}
