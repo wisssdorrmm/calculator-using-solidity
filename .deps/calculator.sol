@@ -5,6 +5,8 @@ contract CalculatorUint {
     
     uint  firstNumber;
     uint  secondNumber;
+    int  intnumber;
+    int   intNumber2;
 
     
     function setFirstNumber(uint _first) public {
@@ -32,4 +34,32 @@ contract CalculatorUint {
         
         return firstNumber / secondNumber;
     }
+
+    function setintnumber(int _treat) public {
+        intnumber = _treat;
+    }
+
+    function setintnumber2(int _sreat) public {
+        intNumber2 = _sreat;
+    }
+
+     function ads() public view returns (int) {
+        return intnumber +  intNumber2;
+    }
+
+    function subtracs() public view returns (int) {
+   
+      return intnumber +  intNumber2;
+    }
+
+    function multipls() public view returns (int) {
+       return intnumber +  intNumber2;
+    }
+
+    function divids() public view returns (int) {
+        
+        return intnumber +  intNumber2;
+    }
+
+
 }
