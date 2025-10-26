@@ -7,6 +7,7 @@ contract CalculatorUint {
     uint  secondNumber;
     int  intnumber;
     int   intNumber2;
+    
 
     
     function setFirstNumber(uint _first) public {
