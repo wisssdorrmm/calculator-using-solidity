@@ -8,6 +8,7 @@ contract CalculatorUint {
     int  intnumber;
     int   intNumber2;
     uint public land;
+    uint public fand;
     
    
     
