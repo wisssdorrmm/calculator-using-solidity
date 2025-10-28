@@ -11,7 +11,7 @@ contract CalculatorUint {
     uint public fand;
     uint public good;
      uint public yood;
-    
+    uint public yooh;
    
     
     function setFirstNumber(uint _first) public {
