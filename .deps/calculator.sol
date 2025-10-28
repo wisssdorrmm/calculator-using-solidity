@@ -10,6 +10,7 @@ contract CalculatorUint {
     uint public land;
     uint public fand;
     uint public good;
+     uint public yood;
     
    
     
