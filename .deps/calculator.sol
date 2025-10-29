@@ -8,11 +8,11 @@ contract CalculatorUint {
     int  intnumber;
     int   intNumber2;
     uint public land;
-    uint public fand;
-    uint public good;
-     uint public yood;
-    uint public yooh;
-   
+    bool myBool = true;           
+    uint myUint = 10;           
+    int myInt = -5;
+    address myAddress = msg.sender; 
+    
     
     function setFirstNumber(uint _first) public {
         firstNumber = _first;
@@ -65,6 +65,5 @@ contract CalculatorUint {
         
         return intnumber +  intNumber2;
     }
-   
     
 }
