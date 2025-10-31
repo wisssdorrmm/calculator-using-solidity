@@ -13,6 +13,7 @@ contract CalculatorUint {
     int myInt = -5;
     address myAddress = msg.sender; 
     uint256 myUint256 = 10000000000000000000000000000000000000000000000000000000000000000;
+    uint64 myUint00000000000000000000000000000000000000000000000000000000000;
     
     
     function setFirstNumber(uint _first) public {
