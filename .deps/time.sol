@@ -2,6 +2,7 @@
 pragma solidity ^0.8.0;
 
 contract TimeOfDay {
+    uint mainfood;
     function getTimeOfDay(uint256 hour) public pure returns (string memory) {
         require(hour < 24, "Hour must be between 0 and 23");
 
