@@ -11,6 +11,7 @@ contract CalculatorUint {
     bool myBool = true;           
     uint myUint = 10;           
     int myInt = -5;
+    uint mate;
     address myAddress = msg.sender; 
     uint256 myUint256 = 10000000000000000000000000000000000000000000000000000000000000000;
     uint64 myUint00000000000000000000000000000000000000000000000000000000000;
