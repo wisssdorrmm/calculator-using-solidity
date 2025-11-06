@@ -12,6 +12,10 @@ contract CalculatorUint {
     int day;
     uint book;
     bool public isactive = true;
+
+    struct person{
+        string name;
+    }
     
     
     function setFirstNumber(uint _first) public {
