@@ -11,6 +11,7 @@ contract CalculatorUint {
     bool myBool = true;           
     int day;
     uint book;
+    bool public isactive = true;
     
     
     function setFirstNumber(uint _first) public {
