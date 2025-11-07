@@ -64,5 +64,23 @@ contract CalculatorUint {
         
         return intnumber +  intNumber2;
     }
+
+    function sumNumbers(uint _n) public pure returns (uint) {
+        uint sum = 0;
+        for (uint i = 1; i <= _n; i++) {
+            sum += i;
+        }
+        return sum;
+    }
+
+    function countWhile(uint _n) public pure returns (uint) {
+        uint count = 0;
+        uint i = 0;
+        while (i < _n) {
+            count++;
+            i++;
+        }
+        return count;
+    }
     
 }
