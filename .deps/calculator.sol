@@ -8,9 +8,8 @@ contract CalculatorUint {
     int  intnumber;
     int   intNumber2;
     uint public land;
-    bool myBool = true;           
-    int day;
-    uint book;
+    bool myBool = true;
+    uint[3] public numbers=[1,2,3];           
     
     
     function setFirstNumber(uint _first) public {
@@ -81,6 +80,9 @@ contract CalculatorUint {
             i++;
         }
         return count;
+    }
+    function getthearray(uint manchi) public view returns (uint){
+        return numbers [manchi];
     }
     
 }
