@@ -69,7 +69,6 @@ contract CalculatorUint {
         for (uint i = 1; i <= _n; i++) {
             sum += i;
         }
-        return sum;
     }
 
     function countWhile(uint _n) public pure returns (uint) {
