@@ -69,6 +69,7 @@ contract CalculatorUint {
         for (uint i = 1; i <= _n; i++) {
             sum += i;
         }
+        return sum;
     }
 
     function countWhile(uint _n) public pure returns (uint) {
@@ -82,6 +83,11 @@ contract CalculatorUint {
     }
     function getthearray(uint manchi) public view returns (uint){
         return numbers [manchi];
+    }
+   int kine;
+
+    function getNumber(uint indexs) public view returns (uint) {
+        return numbers[indexs]; // returns the number at that position
     }
     
 }
