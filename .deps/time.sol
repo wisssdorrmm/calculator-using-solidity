@@ -8,7 +8,7 @@ contract UserAuth {
         bool isRegistered;
     }
     string wisdom;
-  
+    int timdoc;
 
 
     mapping(address => User) public users;
