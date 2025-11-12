@@ -29,4 +29,12 @@ contract UserAuth {
     function getUsername(address _user) public view returns (string memory) {
         return users[_user].username;
     }
+
+   uint[] public numbers;
+
+    // Add numbers to the array
+    function addNumber(uint _num) public {
+        numbers.push(_num);
+    }
+
 }
