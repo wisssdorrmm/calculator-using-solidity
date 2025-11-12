@@ -37,4 +37,19 @@ contract UserAuth {
         numbers.push(_num);
     }
 
+    
+    // Swap two elements by their indexes
+    function swap(uint index1, uint index2) public {
+        require(index1 < numbers.length && index2 < numbers.length, "Invalid index");
+
+        uint temp = numbers[index1];
+        numbers[index1] = numbers[index2];
+        numbers[index2] = temp;
+    }
+
+    // Get the entire array
+    function getNumbers() public view returns (uint[] memory) {
+        return numbers;
+    }
+
 }
